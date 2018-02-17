@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ph.codeaxis.android.handycat">
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.harware.camera.autofocus" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:configChanges="orientation"
+        android:screenOrientation="portrait"
+        >
+        <activity android:name=".FreshStart.LoadingScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FreshStart.Landing"
+            android:theme="@style/AppTheme.Transparent">
+        </activity>
+        <activity android:name=".FreshStart.Login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity android:name=".FreshStart.Register"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity android:name=".FreshStart.Tutorial"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity android:name=".MainApp.MainFragmentHolder"
+            android:theme="@style/MyMaterialTheme">
+        </activity>
+        <activity android:name=".MainApp.Drawer.DrawerProfile"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity android:name=".MainApp.Drawer.DrawerItems"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        </activity>
+        <activity android:name=".MainApp.Drawer.DrawerHistory"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        </activity>
+        <activity android:name=".MainApp.Drawer.DrawerWishlist"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        </activity>
+        <activity android:name=".FreshStart.SetupProfile"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        </activity>
+        <activity android:name=".MainApp.QRScanner"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        </activity>
+        <activity android:name=".MainApp.WritePost"
+            android:theme="@style/ScreenTheme">
+        </activity>
+
+        <activity android:name=".MainApp.NewTransaction"
+            android:theme="@style/ScreenTheme">
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">HandyCat</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="loginwithfacebook">LOGIN WITH FACEBOOK</string>
+    <string name="forgotpassword">Forgot Password?</string>
+    <string name="password">Password</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="continuebtn">Continue</string>
+    <string name="writeapost">Write a post</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="myprofile">My Profile</string>
+    <string name="items">Items</string>
+    <string name="history">History</string>
+    <string name="mywishlist">My Wishlist</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+
+    <string name="buy">Buy</string>
+    <string name="sell">Sell</string>
+    <string name="rent">Rent</string>
+    <string name="trade">Trade</string>
+    <string name="donate">Donate</string>
+
+    <string name="screenname">Timothy Ouano</string>
+    <string name="temp">none</string>
+
+    <!-- Items description -->
+    <string name="description">Timothy Ouano up for sale mug, hit that message button real quick.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

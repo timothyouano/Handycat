@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "281191587013",
+    "firebase_url": "https://handycat-dc2c5.firebaseio.com",
+    "project_id": "handycat-dc2c5",
+    "storage_bucket": "handycat-dc2c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281191587013:android:411e074c2d9af3b3",
+        "android_client_info": {
+          "package_name": "ph.codeaxis.android.handycat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281191587013-i23olhgvpjfj443pon024gr6o46svlf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiT5sN86b8eBcAcpsNpq2yoCUBnlwOfeM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
